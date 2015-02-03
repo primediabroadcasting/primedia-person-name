@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Builds a full name string.",
   "main": "index.js",
-  "author": "Wayne Ashley Berry <wayneashleyberry@gmail.com>",
+  "author": "Wayne Ashley Berry <wayne@wearenext.co.za>",
   "license": "MIT",
   "scripts": {
     "test": "jscs index.js && jshint index.js && tape test/*"

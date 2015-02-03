@@ -1,4 +1,6 @@
-# Name String
+[![Next](http://www.wearenext.co.za/assets/images/logos/logo-next-dark-57x22.png)](http://www.wearenext.co.za)
+
+# Primedia Person Name
 
 [![npm](https://img.shields.io/npm/v/name-string.svg?style=flat)](https://www.npmjs.com/package/name-string)
 [![Build Status](https://travis-ci.org/wayneashleyberry/name-string.svg?branch=master)](https://travis-ci.org/wayneashleyberry/name-string)
@@ -50,4 +52,4 @@ ns.parse('Wayne Ashley Berry');
 
 #### License
 
-[MIT](http://opensource.org/licenses/MIT) © [Wayne Ashley Berry](https://twitter.com/waynethebrain)
+[MIT](http://opensource.org/licenses/MIT) © [Next](http://www.wearenext.co.za)
