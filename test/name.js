@@ -10,13 +10,13 @@ test('simple example', function(t) {
     last_name: 'Berry'
   };
 
-  t.equal(lib.name(person), 'Wayne Ashley Berry');
+  t.equal(lib(person), 'Wayne Ashley Berry');
 
   person.middle_names = undefined;
-  t.equal(lib.name(person), 'Wayne Berry');
+  t.equal(lib(person), 'Wayne Berry');
 
   person.first_name = undefined;
-  t.equal(lib.name(person), 'Berry');
+  t.equal(lib(person), 'Berry');
 });
 
 test('with defaults', function(t) {
@@ -24,7 +24,7 @@ test('with defaults', function(t) {
 
   var person = {};
 
-  t.equal(lib.name(person) || 'Foo', 'Foo');
+  t.equal(lib(person) || 'Foo', 'Foo');
 });
 
 test('empty', function(t) {
@@ -32,7 +32,7 @@ test('empty', function(t) {
 
   var person = {};
 
-  t.equal(lib.name(person), '');
+  t.equal(lib(person), '');
 });
 
 test('honorific_prefix', function(t) {
@@ -45,7 +45,7 @@ test('honorific_prefix', function(t) {
     last_name: 'Berry'
   };
 
-  t.equal(lib.name(person), 'Mr. Wayne Ashley Berry');
+  t.equal(lib(person), 'Mr. Wayne Ashley Berry');
 });
 
 test('honorific_suffix', function(t) {
@@ -57,5 +57,5 @@ test('honorific_suffix', function(t) {
     honorific_suffix: 'PhD'
   };
 
-  t.equal(lib.name(person), 'Shawn Roos PhD');
+  t.equal(lib(person), 'Shawn Roos PhD');
 });
