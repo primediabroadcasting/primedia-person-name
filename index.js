@@ -6,7 +6,7 @@ var condense = require('condense-whitespace');
  * @param {Array} strings
  * @return {string}
  */
-function concat(strings) {
+var concat = function(strings) {
   if (typeof strings !== 'object') {
     return '';
   }
@@ -18,13 +18,13 @@ function concat(strings) {
   return condense(strings.map(function(str) {
     return str || '';
   }).join(' ')) || '';
-}
+};
 
 /**
  * @param {object} object
  * @return {string}
  */
-function name(object) {
+var build = function(object) {
   return concat([
     object.honorific_prefix,
     object.first_name,
@@ -32,7 +32,7 @@ function name(object) {
     object.last_name,
     object.honorific_suffix
   ]);
-}
+};
 
 /**
  * Takes a full name string and attempts to split it into first, middle and
@@ -41,7 +41,7 @@ function name(object) {
  * @param {string} input
  * @return {object}
  */
-function parse(input) {
+var parse = function(input) {
   if (typeof input !== 'string') {
     throw new TypeError();
   }
@@ -56,9 +56,9 @@ function parse(input) {
     middle_names: middle_names,
     last_name: last_name
   };
-}
+};
 
-module.exports = name;
-module.exports.name = name;
+module.exports = build;
+module.exports.name = build;
 module.exports.parse = parse;
 module.exports.concat = concat;
