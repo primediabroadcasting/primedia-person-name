@@ -1,5 +1,3 @@
-'use strict';
-
 var condense = require('condense-whitespace');
 
 /**
@@ -7,12 +5,16 @@ var condense = require('condense-whitespace');
  * @return {string}
  */
 var concat = function(strings) {
-  if (typeof strings !== 'object') {
+  if (typeof strings === 'undefined') {
     return '';
   }
 
+  if (typeof strings !== 'object') {
+    throw new TypeError();
+  }
+
   if (typeof strings.map !== 'function') {
-    return '';
+    throw new TypeError();
   }
 
   return condense(strings.map(function(str) {
