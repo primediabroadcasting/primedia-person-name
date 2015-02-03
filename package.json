@@ -12,9 +12,9 @@
     "type": "git",
     "url": "git@github.com:we-are-next/primedia-person-name.git"
   },
-  "keywords": {
+  "keywords": [
     "primedia"
-  },
+  ],
   "dependencies": {
     "condense-whitespace": "^1.0.0"
   },
