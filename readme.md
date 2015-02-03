@@ -7,9 +7,6 @@
 [![Dependency Status](https://david-dm.org/we-are-next/primedia-person-name/status.svg?style=flat)](https://david-dm.org/we-are-next/primedia-person-name#info=dependencies)
 [![devDependency Status](https://david-dm.org/we-are-next/primedia-person-name/dev-status.svg?style=flat)](https://david-dm.org/we-are-next/primedia-person-name#info=devDependencies)
 
-This is a tiny little module I wrote for very specific use cases. There's
-a good chance you wont find this of any use at all :)
-
 ### Examples
 
 ```js
@@ -36,8 +33,8 @@ var ns = require('primedia-person-name');
 var name = ns.concat(['Wayne', 'Ashley', 'Berry']); // Wayne Ashley Berry
 ```
 
-You can also attempt to parse a full name string into first, middle and last
-names.
+You can also attempt to reverse the process and parse a full name string into
+first, middle and last names.
 
 ```js
 var ns = require('primedia-person-name');
