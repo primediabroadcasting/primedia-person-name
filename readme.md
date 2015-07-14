@@ -2,10 +2,9 @@
 
 # Primedia Person Name
 
-[![npm](https://img.shields.io/npm/v/primedia-person-name.svg?style=flat)](https://www.npmjs.com/package/primedia-person-name)
-[![Build Status](https://travis-ci.org/we-are-next/primedia-person-name.svg?branch=master)](https://travis-ci.org/we-are-next/primedia-person-name)
-[![Dependency Status](https://david-dm.org/we-are-next/primedia-person-name/status.svg?style=flat)](https://david-dm.org/we-are-next/primedia-person-name#info=dependencies)
-[![devDependency Status](https://david-dm.org/we-are-next/primedia-person-name/dev-status.svg?style=flat)](https://david-dm.org/we-are-next/primedia-person-name#info=devDependencies)
+[![npm](https://img.shields.io/npm/v/@primedia/person-name.svg?style=flat)](https://www.npmjs.com/package/primedia-person-name)
+[![Dependency Status](https://david-dm.org/primediabroadcasting/primedia-person-name/status.svg?style=flat)](https://david-dm.org/primediabroadcasting/primedia-person-name#info=dependencies)
+[![devDependency Status](https://david-dm.org/primediabroadcasting/primedia-person-name/dev-status.svg?style=flat)](https://david-dm.org/primediabroadcasting/primedia-person-name#info=devDependencies)
 
 ### Examples
 
