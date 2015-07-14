@@ -1,5 +1,5 @@
 {
-  "name": "@primedia/person-name",
+  "name": "@primediabroadcasting/person-name",
   "version": "2.0.0",
   "description": "Builds a full name string.",
   "main": "index.js",
