@@ -1,6 +1,6 @@
 {
   "name": "@primediabroadcasting/person-name",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Builds a full name string.",
   "main": "index.js",
   "author": "Wayne Ashley Berry <wayne@wearenext.co.za>",
